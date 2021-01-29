@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rector\Php73\Rector\BinaryOp;
+namespace Rector\Php73\Rector\BinaryOr;
 
 use PhpParser\Node;
 use PhpParser\Node\Expr\BinaryOp\BooleanOr;
@@ -13,7 +13,7 @@ use Symplify\RuleDocGenerator\ValueObject\CodeSample\CodeSample;
 use Symplify\RuleDocGenerator\ValueObject\RuleDefinition;
 
 /**
- * @see \Rector\Php73\Tests\Rector\BinaryOp\IsCountableRector\IsCountableRectorTest
+ * @see \Rector\Php73\Tests\Rector\BinaryOr\IsCountableRector\IsCountableRectorTest
  */
 final class IsCountableRector extends AbstractRector
 {

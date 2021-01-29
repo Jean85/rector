@@ -12353,7 +12353,7 @@ Make use of `array_key_first()` and `array_key_last()`
 
 Changes `is_array` + Countable check to `is_countable`
 
-- class: `Rector\Php73\Rector\BinaryOp\IsCountableRector`
+- class: `Rector\Php73\Rector\BinaryOr\IsCountableRector`
 
 ```diff
 -is_array($foo) || $foo instanceof Countable;
